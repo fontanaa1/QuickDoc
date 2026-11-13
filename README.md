@@ -1,97 +1,128 @@
 # 💙 QuickDoc — Saúde e Cuidado
 
-**Organize sua saúde em um só lugar!**
+<p align="center">
+  <strong> Sua saúde merece atenção!</strong>
+</p>
 
-O QuickDoc é um aplicativo desenvolvido para facilitar o gerenciamento de informações pessoais de saúde, permitindo organizar prontuários médicos, acompanhar medicamentos e criar lembretes de cuidados.
+<p align="center">
+  Aplicativo mobile desenvolvido para facilitar a organização de informações pessoais de saúde, medicamentos, prontuários médicos e lembretes.
+</p>
 
-## 📱 Apresentação do aplicativo
+---
 
-O QuickDoc possui uma interface intuitiva, moderna e responsiva, com identidade visual em tons de azul-turquesa e branco.
+## 📱 Sobre o projeto
 
-### Telas do aplicativo
+O **QuickDoc** é um aplicativo de saúde pessoal que permite reunir informações importantes do dia a dia em um único ambiente.
 
-![Tela inicial do QuickDoc](docs/images/quickdoc-inicio.png)
-
-
+Com uma interface intuitiva, moderna e responsiva, o aplicativo busca facilitar o acompanhamento dos cuidados pessoais e a organização da rotina de saúde.
 
 ## ✨ Funcionalidades
 
-- 🏠 Painel inicial com visão geral dos cuidados.
-- 📋 Cadastro, edição, pesquisa e exclusão de prontuários.
-- 💊 Cadastro e acompanhamento de medicamentos.
-- 🔔 Criação e gerenciamento de lembretes.
-- 👤 Gerenciamento de perfil pessoal.
-- 💾 Persistência local de informações com LocalStorage.
+- 🏠 **Início:** painel com visão geral dos cuidados.
+- 📋 **Prontuários:** cadastro, pesquisa, edição e exclusão de registros médicos.
+- 💊 **Medicamentos:** cadastro de medicamentos, horários, dosagens e controle manual de doses.
+- 🔔 **Lembretes:** criação, edição, pesquisa e conclusão de compromissos de saúde.
+- 👤 **Meu perfil:** gerenciamento das informações pessoais.
+- 💾 **Armazenamento local:** persistência dos dados no navegador por meio do LocalStorage.
+
+## 🖼️ Telas do aplicativo
+
+### 🏠 Prontuários médicos
+
+Organização de exames, consultas e documentos médicos.
+
+![Tela de prontuários](docs/images/quickdoc-prontuarios.png)
+
+### 💊 Medicamentos
+
+Acompanhamento de medicamentos, dosagens e horários.
+
+![Tela de medicamentos](docs/images/quickdoc-medicamentos.png)
+
+### 🔔 Lembretes
+
+Organização de consultas e compromissos de saúde.
+
+![Tela de lembretes](docs/images/quickdoc-lembretes.png)
+
+---
 
 ## 🎨 Identidade visual
 
-- Nome: QuickDoc
-- Segmento: Saúde e bem-estar.
-- Cores principais: Azul-turquesa e branco.
-- Símbolo: Coração, representando cuidado e saúde.
-- Interface: Moderna, minimalista e intuitiva.
+- **Nome:** QuickDoc
+- **Segmento:** Saúde e bem-estar.
+- **Cor principal:** Azul-turquesa.
+- **Cores complementares:** Branco e azul-claro.
+- **Símbolo:** Coração, representando cuidado e saúde.
+- **Estilo:** Moderno, minimalista e intuitivo.
 
 ## 🛠️ Tecnologias utilizadas
 
-- React
-- JavaScript
-- Vite
-- CSS
-- Lucide React
-- Capacitor
-- Android
+| Tecnologia | Aplicação |
+|---|---|
+| React | Construção da interface |
+| JavaScript | Lógica e funcionalidades |
+| Vite | Ambiente de desenvolvimento |
+| CSS | Estilização |
+| Lucide React | Ícones |
+| Capacitor | Integração com Android |
+| Android | Plataforma mobile |
 
 ## 🚀 Como executar o projeto
 
-Clone o repositório:
+### 1. Clonar o repositório
 
 ```bash
 git clone https://github.com/SEU-USUARIO/QuickDoc.git
 ```
 
-Entre na pasta:
+### 2. Entrar na pasta
 
 ```bash
 cd QuickDoc
 ```
 
-Instale as dependências:
+### 3. Instalar as dependências
 
 ```bash
 npm install
 ```
 
-Execute o projeto:
+### 4. Executar o projeto
 
 ```bash
 npm run dev
 ```
 
-## 📲 Gerar aplicativo Android
+O Vite fornecerá o endereço local para acessar o aplicativo no navegador.
 
-Gere a versão de produção:
+## 📲 Aplicativo Android
+
+O projeto utiliza Capacitor para integrar a aplicação React ao ambiente Android.
+
+Para gerar a versão de produção:
 
 ```bash
 npm run build
 ```
 
-Sincronize com o Android:
+Sincronizar os arquivos com o Android:
 
 ```bash
 npx cap sync android
 ```
 
-Abra o Android Studio:
+Abrir no Android Studio:
 
 ```bash
 npx cap open android
 ```
 
-## ⚙️ Geração automática do APK
+## ⚙️ Automação de build
 
-O projeto utiliza GitHub Actions para automatizar a compilação do aplicativo Android.
+O projeto possui integração com GitHub Actions para automatizar a compilação do aplicativo Android.
 
-O workflow está localizado em:
+Arquivo de configuração:
 
 `.github/workflows/android-build.yml`
 
@@ -99,8 +130,12 @@ Após uma execução bem-sucedida, o APK fica disponível no artefato:
 
 `meu-aplicativo-apk`
 
-## 👩‍💻 Desenvolvimento
+## 📚 Objetivo acadêmico
 
-Projeto desenvolvido como atividade acadêmica do curso de Tecnologia da Informação do SENAI.
+Projeto desenvolvido como atividade acadêmica do curso de Tecnologia da Informação do SENAI, com o objetivo de aplicar conhecimentos de desenvolvimento web, React, Capacitor e publicação de aplicativos móveis.
 
-**QuickDoc — Sua saúde merece atenção! 💙**
+---
+
+<p align="center">
+  💙 <strong>QuickDoc — Cuidar da saúde ficou mais organizado!</strong>
+</p>
