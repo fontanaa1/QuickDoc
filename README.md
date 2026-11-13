@@ -10,21 +10,9 @@ O QuickDoc possui uma interface intuitiva, moderna e responsiva, com identidade 
 
 ### Telas do aplicativo
 
-**Início**
-
 ![Tela inicial do QuickDoc](docs/images/quickdoc-inicio.png)
 
-**Prontuários médicos**
 
-![Prontuários do QuickDoc](docs/images/quickdoc-prontuarios.png)
-
-**Medicamentos**
-
-![Medicamentos do QuickDoc](docs/images/quickdoc-medicamentos.png)
-
-**Lembretes**
-
-![Lembretes do QuickDoc](docs/images/quickdoc-lembretes.png)
 
 ## ✨ Funcionalidades
 
